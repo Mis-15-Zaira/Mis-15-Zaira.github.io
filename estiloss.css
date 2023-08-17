@@ -363,7 +363,9 @@ body {
       margin-top: 32px;
   }
   .regalos>button{
-    margin-top: 20px;
+
+    margin-top: 22px;
+    font-family: 'Lilta One', cursive;
 
   }
   section.canciones{
@@ -375,7 +377,8 @@ body {
   /*according*/
   .accordion {
     background-color: #eee;
-    font-family: "Montserrat", Sans-serif;
+    /* font-family: "Montserrat", Sans-serif; */
+    font-family: 'Lilita One' cursive;
     color: #000000;
     cursor: pointer;
     padding: 18px;
@@ -606,8 +609,8 @@ align-content: center;
   padding: 20px;  */
 }
 .container_2 label{
-  color: rgb(0, 0, 0);
-
+  color: rgb(219, 2, 183);
+    
 }
 
 input[type=text] {
@@ -621,7 +624,7 @@ input[type=text] {
   box-shadow: 1px 1px #333;
 }
 label{
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Lilita One',cursive;
   font-size: 23px;
   color: white;
   /* text-shadow: 2px 1px 2px #000; */
