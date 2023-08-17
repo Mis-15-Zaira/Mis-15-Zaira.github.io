@@ -43,13 +43,19 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("/img/foto-1.jpg");
+    background-image: url("/img/a1.webp");
     background-size:cover;
     background-position: center center; 
     background-attachment: fixed;
     overflow-x: hidden;
 
+
   }
+  .fcentral{
+
+    background-image: url("/img/pastel-pink-wallpaper-image-21.jpg");
+  }
+
   .enviado >p{
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -133,362 +139,7 @@ body {
   text-shadow: -1px 0px 1px #000;
 }
 
-/*Fade in*/
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
-h1{
-  font-size: 30px;
-  color: #ffffff;
-  margin: 50px 0 50px 25px;
-}
-/*=== Basic box styling  ===*/
-.box {
-  /* background: #ffffff none repeat scroll 0 0; */
-  color: rgb(0, 0, 0);
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  height: 300px;
-  line-height: 64px;
-  margin: 0 auto 3%;
-  /* padding: 20px; */
-  text-align: center;
-  /* text-transform: uppercase; */
-  width: 95%;
-}
-/*=== Trigger  aumente a 3s era 1s ===*/
-.animate {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-/*=== Optional Delays, change values here  ===*/
-.one {
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-
-.two {
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-
-/* .three {
-  -webkit-animation-delay: 2.5s;
-  -moz-animation-delay: 2.5s;
-  animation-delay: 2.5s;
-} */
-
-.four {
-  -webkit-animation-delay: 3.5s;
-  -moz-animation-delay: 3.5s;
-  animation-delay: 3.5s;
-  background-color: white;
-}
-
-.five {
-  -webkit-animation-delay: 4.5s;
-  -moz-animation-delay: 4.5s;
-  animation-delay: 4.5s;
-}
-
-.six {
-  -webkit-animation-delay: 5.5s;
-  -moz-animation-delay: 5.5s;
-  animation-delay: 5.5s;
-}
-
-.seven {
-  -webkit-animation-delay: 6.5s;
-  -moz-animation-delay: 6.5s;
-  animation-delay: 6.5s;
-}
-
-.eight {
-  -webkit-animation-delay: 7.5s;
-  -moz-animation-delay: 7.5s;
-  animation-delay: 7.5s;
-}
-
-/*=== Animations start here  ===*/
-
-/*==== FADE IN UP ===*/
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-
-/*=== FADE IN DOWN ===*/
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-/*=== FADE IN LEFT ===*/
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}
-
-/*==== FADE IN RIGHT ===*/
-@-webkit-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInRight {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-}
-
-/*=== FADE IN  ===*/
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-/*=== FADE IN UP Big ===*/
-.fadeInUpBig {
-  -webkit-animation-name: fadeInUpBig;
-  animation-name: fadeInUpBig;
-}
-@-webkit-keyframes fadeInUpBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 2000px, 0);
-    transform: translate3d(0, 2000px, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInUpBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 2000px, 0);
-    transform: translate3d(0, 2000px, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-/*=== FADE IN DOWN Big ===*/
-.fadeInDownBig {
-  -webkit-animation-name: fadeInDownBig;
-  animation-name: fadeInDownBig;
-}
-@-webkit-keyframes fadeInDownBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-    transform: translate3d(0, -2000px, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInDownBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-    transform: translate3d(0, -2000px, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-/*=== FADE IN LEFT Big ===*/
-.fadeInLeftBig {
-  -webkit-animation-name: fadeInLeftBig;
-  animation-name: fadeInLeftBig;
-}
-@-webkit-keyframes fadeInLeftBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInLeftBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-/*=== FADE IN RIGHT Big ===*/
-.fadeInRightBig {
-  -webkit-animation-name: fadeInRightBig;
-  animation-name: fadeInRightBig;
-}
-@-webkit-keyframes fadeInRightBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(2000px, 0, 0);
-    transform: translate3d(2000px, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInRightBig {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(2000px, 0, 0);
-    transform: translate3d(2000px, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
 /*Cuenta regresiva*/
 
 .cregresiva{
@@ -508,9 +159,6 @@ h1{
   
   /* margin-bottom: -800px;   */
   /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s;  */
-  
-  
-
 }
 
 
@@ -719,7 +367,7 @@ h1{
 
   }
   section.canciones{
-    background-image: url("/img/foto-1.jpg");
+    background-image: url("/img/a2.webp");
     background-size: cover;
     /* background-attachment: fixed; */
     background-color: white;
@@ -958,7 +606,7 @@ align-content: center;
   padding: 20px;  */
 }
 .container_2 label{
-  color: rgb(255, 0, 157);
+  color: rgb(0, 0, 0);
 
 }
 
@@ -1130,7 +778,7 @@ section>.asistir{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("/img/foto-1.jpg");
+  background-image: url("/img/a2.webp");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -1368,7 +1016,7 @@ div img{
   margin-top: 25px;
 }
 .canciones h2{
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   text-align: center;
 
 }
@@ -1401,6 +1049,12 @@ div img{
   section.canciones{
     background-image: url("/img/pastel-pink-wallpaper-image-21.jpg");
   }
+  .portada{
+    background-image: url("/img/pantallasG.jpg"); 
+        background-position: center center;
+  }
+
+
 
  
  
